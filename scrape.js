@@ -1,6 +1,6 @@
 const { chromium } = require("playwright");
 
-const seeds = [37,38,39,40,41,42,43,44,45,46];
+const seeds = [40,41,42,43,44,45,46,47,48,49];
 
 async function scrape() {
   const browser = await chromium.launch();
